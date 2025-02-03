@@ -7,6 +7,7 @@
   color: var(--text-color);
   font-family: var(--main-font-family);
   font-size: var(--main-font-size);
+  background-attachment: fixed;
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 }
 .decorated-element {
@@ -72,7 +73,7 @@
   text-transform: lowercase;
 }
 
-.header__theme-menu-item{
+.header__theme-menu-item {
   padding-top: 10px;
 }
 
@@ -102,7 +103,7 @@
   min-width: 375px;
   height: 688px;
   position: relative;
-  padding: 0 10px; ;
+  padding: 0 10px; 
 }
 
 .tittle {
@@ -286,7 +287,7 @@
     padding-top: 10px;
   }
 
-  .text-block__section{
+  .text-block__section {
     margin-top: 20px;
   }
 
