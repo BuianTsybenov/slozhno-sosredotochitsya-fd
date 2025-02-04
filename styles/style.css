@@ -253,7 +253,7 @@
   outline: 1px solid var(--text-color);
 }
 
-@media (width >= 768px) {
+@media (width >= 765px) {
   .decorated-element {
     inset-inline-end: 49px;
     inset-block-start: 21px;
@@ -474,5 +474,4 @@
   .tittle-footer {
     padding-top: 60px;
   }
-
 }
