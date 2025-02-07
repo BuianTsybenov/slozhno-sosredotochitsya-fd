@@ -12,36 +12,35 @@
   --text-color: #353430;
   --accent-text-color: #ffc2e6;
   --accent-color: #ff8dcb;
-  --main-color: #fff1f7;
+  --main-color: #353430;
+  --hover-color: #32312d73;
+  --bg-img: url(../images/cover-image-light.png);
+  --main-accent-color: #353430;
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  .header {
-    background-image: url(../images/cover-image-light.png);
-  }
-
   .decorated-element {
     display: none;
   }
 
-  .decorated-zone {
+  /*.decorated-zone {
     --accent-color: #353430;
   }
 
-  .tittle {
+ /* .title {
     --accent-color: #ff8dcb;
   }
 
-  .header__tittle-decor {
+  .header__title-decor {
     background-color: #ff8dcb;
   }
 
-  .tittle-decor {
+  .title-decor {
     color: #353430;
   }
 
-  .tittle__text-block {
+  .title__text-block {
     color: #353430;
   }
 }
