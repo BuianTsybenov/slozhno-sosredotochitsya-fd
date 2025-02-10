@@ -42,5 +42,22 @@
 
   .title__text-block {
     color: #353430;
-  }
+  }*/
+}
+
+@media (prefers-color-scheme: light) {
+:root{
+  --text-color: #353430;
+  --accent-text-color: #ffc2e6;
+  --accent-color: #ff8dcb;
+  --main-color: #353430;
+  --hover-color: #32312d73;
+  --bg-img: url(../images/cover-image-light.png);
+  --main-accent-color: #353430;
+}
+
+.decorated-element {
+  display: none;
+}
+
 }

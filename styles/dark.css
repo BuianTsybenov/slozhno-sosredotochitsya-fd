@@ -12,10 +12,16 @@
   --text-color: #f1b2ce;
   --accent-text-color: #db00ff;
   --accent-color: #ff0070;
+  --hover-color: #ff007066;
+  --main-color: #000028;
+  --main-accent-color: #ff0070;
+  --bg-img: url(../images/cover-image-dark.png);
   
-
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  .decorated-element {
+    display: block;
+  }
 }
